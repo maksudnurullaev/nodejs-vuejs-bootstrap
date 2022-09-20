@@ -6,7 +6,7 @@
         <div class="card-body">
           <h5 class="card-title">Instuction:</h5>
           <p class="card-text">Just run <code>.\run.bat</code> and go to <a href="http://localhost:3000">http://localhost:3000</a>.</p>
-          <p class="card-text"><small class="text-muted">If everything runs seccessully you shoul see messages like this:</small>
+          <p class="card-text"><small class="text-muted">If everything runs successully you should see next console message:</small>
             <pre>
 C:\App\oo\nodejs-vuejs-bootstrap>.\run.bat
 ----------------------------------------
