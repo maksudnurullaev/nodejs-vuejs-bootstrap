@@ -18,8 +18,10 @@ npm install && npm run build && npm run server-dev
 
 and go to http://localhost:3000.
 
-NOTE: 
-Check for "builderPath" of config/default.json file. By default is set to: "C:\\ONLYOFFICE\\DocumentBuilder\\docbuilder.exe".
+## !!!NOTE!!!
+
+Check for "builderPath" of config/default.json file. 
+By default is set to: "C:\\ONLYOFFICE\\DocumentBuilder\\docbuilder.exe".
 In your case set path to actual builder!
 
 ## Recommended IDE Setup
