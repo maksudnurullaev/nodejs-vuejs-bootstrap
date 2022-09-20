@@ -13,7 +13,7 @@ Just run (Windows)
 OR (Linux)
 
 ```sh
-npm install && npm run build && npm run server-dev
+npm install && npm run build && npm run dev-server
 ```
 
 and go to http://localhost:3000.
