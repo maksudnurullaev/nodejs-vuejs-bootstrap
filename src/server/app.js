@@ -112,8 +112,6 @@ app.post("/generate", function (req, res) {
   var builderScript = (req.body.PredefinedScript || "").trim();
   try {
     var outputFilePath = docbuilderHelper.generateDocument(builderScript);
-    console.log("outputFilePath: " + outputFilePath);
-
     var fileName = path.basename(outputFilePath) || "output..tmp.docx";
     fileName = fileName.substring(1 + fileName.indexOf(".", 7));
     res.download(outputFilePath, fileName);
